@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>HTML Academy: каталог Седоны</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="navigation-menu">
+            <img src="sedona-logo.jpg" alt="Логотип Седоны">
+            <ul>
+                <li>ИНФОРМАЦИЯ</li>
+                <li>ФОТО И ВИДЕО</li>
+                <li>КАРТА ШТАТА</li>
+                <li>ГОСТИНИЦЫ</li>
+            </ul>
+        </nav>
+    </header>
+    <main class="catalog-main">
+        <section class="section-filters">
+            <h2>Инфраструктура<h2>
+                    <form class="infrastructure-filter">
+                        <input type="checkbox" id="pool" name="pool" checked><label for="pool">Бассейн</label>
+                        <input type="checkbox" id="parking" name="parking"><label for="parking">Парковка</label>
+                        <input type="checkbox" id="wifi" name="wifi"><label for="wifi">WI-FI</label>
+                    </form>
+                    <form class="accomodation-type">
+                        <input type="checkbox" id="hotel" name="hotel" checked><label for="hotel">Гостиница</label>
+                        <input type="checkbox" id="motel" name="motel" checked><label for="motel" >Мотель</label>
+                        <input type="checkbox" id="appartment" name="appartment" checked><label for="appartment">Апартаменты</label>
+                    </form>
+                    <form class="price-filter">
+                        <label for="from">От<input type="number" id="from" name="from"></label>
+                        <label for="to">До<input type="number" id="to" name="to"></label>
+
+                        <button>
+                            <input type="submit" value="Показать">
+                        </button>
+                    </form>
+        </section>
+        <section class="sorting-filters">
+            <p>Надено: 3</p>
+            <h3>Сортировка:</h3>
+            <ul>
+                <li><a href="#">По цене</a></li>
+                <li><a href="#">По типу</a></li>
+                <li><a href="#">По рейтингу</a></li>
+                <li><a class="hidden" href="#">Вверх</a></li>
+                <li><a class="hidden" href="#">Вниз</a></li>
+            </ul>
+        </section>
+        <section class="search-results">
+            <ul>
+                <li>
+                    <img src="amara.jpeg" alt="Гостиница Amara resort & SPA">
+                    <h3>Amara resort & SPA</h3>
+                    <p>Гостиница</p>
+                    <p>от 4000 Р.</p>
+                    <a href="#">Подробнее</a>
+                    <a href="#">Забронировать</a>
+                    <p>Рейтинг: 8,5</p>
+                </li>
+                <li>
+                    <img src="desertquail.jpeg" alt="Мотель Desert Quail Inn">
+                    <h3>Desert Quail Inn</h3>
+                    <p>Мотель</p>
+                    <p>от 3000 Р.</p>
+                    <a href="#">Подробнее</a>
+                    <a href="#">Забронировать</a>
+                    <p>Рейтинг: 8,9</p>
+                </li>
+                <li>
+                    <img src="pocodiablo.jpeg" alt="Апартаменты Villas At Poco Diablo">
+                    <h3>Villas At Poco Diablo</h3>
+                    <p>Апартаменты</p>
+                    <p>от 2000 Р.</p>
+                    <a href="#">Подробнее</a>
+                    <a href="#">Забронировать</a>
+                    <p>Рейтинг: 9,2</p>
+
+                </li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+        <div class="hotel-search-block">
+            <a class="hotel-search" href="hotel-search.html">#VISITSEDONA</a>
+        </div>
+        <ul class="social-button-list">
+            <li><a href="Twitter.html">Twitter</a></li>
+            <li><a href="facebook.html">Facebook</a></li>
+            <li><a href="youtube.html">Youtube</a></li>
+
+        </ul>
+        <div class="html-academy-ref">
+            <p>Website by</p>
+            <a href="htmlacademy.ru"><img src="html-logo.jpeg" alt="Логотип-ссылка HTML-академия"></a>
+
+        </div>
+    </footer>
+
+    </header>
+</body>
+
+</html>
